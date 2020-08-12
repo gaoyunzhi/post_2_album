@@ -19,3 +19,4 @@ result.cap
 ## how to install
 
 `pip3 install web_2_album`# post_2_album
+# post_2_album
