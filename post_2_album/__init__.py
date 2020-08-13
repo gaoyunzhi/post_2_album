@@ -7,8 +7,7 @@ from telegram_util import AlbumResult as Result
 import webgram
 
 def getCap(post):
-	print(post.text)
-	return ''
+	return post.text
 
 def getImgs(post):
 	return list(post.yieldPhotos())
@@ -21,3 +20,4 @@ def get(path):
 	result = Result()
 	result.cap_html = getCap(post)
 	result.imgs = getImgs(post)
+	return result

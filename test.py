@@ -13,6 +13,7 @@ chat = tele.bot.get_chat(-1001198682178) # bot debug
 
 def test(url, rotate=False):
 	result = post_2_album.get(url)
+	print(result)
 	album_sender.send_v2(chat, result)
 	
 if __name__=='__main__':
