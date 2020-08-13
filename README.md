@@ -1,22 +1,20 @@
-# web_2_album
+# post_2_album
 
-Return photo list and caption (markdown format) from web.
+Return photo list and caption from telegram post
 
 ## usage
 
 ```
-import web_2_album
-result = web_2_album.get(url)
+import post_2_album
+result = post_2_album.get(url)
 result.imgs
-result.video
-result.cap
-
+result.cap_html
 ```
 
+
 ### Optional param
-- force_cache
+- force_cache, default to True
 
 ## how to install
 
-`pip3 install web_2_album`# post_2_album
-# post_2_album
+`pip3 install post_2_album`
