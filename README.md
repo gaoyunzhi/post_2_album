@@ -11,9 +11,7 @@ result.imgs
 result.cap_html
 ```
 
-
-### Optional param
-- force_cache, default to True
+The result will be cached, if we see request to bypass cache, we can revisit.
 
 ## how to install
 
