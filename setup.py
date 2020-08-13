@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="post_2_album",
-    version="0.0.45",
+    version="0.0.1",
     author="Yunzhi Gao",
     author_email="gaoyunzhi@gmail.com",
-    description="Return photo list and caption (markdown format) from web.",
+    description="Return photo list and caption from telegram post link.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/gaoyunzhi/post_2_album",
@@ -19,12 +19,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'cached_url',
-        'bs4',
+        'webgram',
         'telegram_util',
-        'export_to_telegraph',
-        'readee',
-        'pyyaml',
     ],
     python_requires='>=3.0',
 )
