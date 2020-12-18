@@ -21,4 +21,5 @@ def get(path):
 	result.url = path
 	result.cap_html = getCap(post)
 	result.imgs = getImgs(post)
+	result.video = post.getVideo()
 	return result
