@@ -18,6 +18,7 @@ def get(path):
 	post_id = int(parts[4])
 	post = webgram.getPost(channel, post_id)
 	result = Result()
+	result.url = path
 	result.cap_html = getCap(post)
 	result.imgs = getImgs(post)
 	return result
