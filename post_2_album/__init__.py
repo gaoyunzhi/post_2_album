@@ -7,6 +7,8 @@ from telegram_util import AlbumResult as Result
 import webgram
 
 def getCap(post):
+	if not post.text:
+		return ''
 	return ''.join([str(item) for item in post.text])
 
 def getImgs(post):

@@ -17,4 +17,4 @@ def test(url, rotate=False):
 	# album_sender.send_v2(chat, result)
 	
 if __name__=='__main__':
-	test('https://t.me/douban_read/38353') # link
+	test('https://t.me/dushufenxiang/1199') # link
