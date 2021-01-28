@@ -17,4 +17,4 @@ def test(url, rotate=False):
 	# album_sender.send_v2(chat, result)
 	
 if __name__=='__main__':
-	test('https://t.me/dushufenxiang/1355') # link
+	test('https://t.me/twitter_translate/514') # link
