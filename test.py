@@ -13,8 +13,8 @@ chat = tele.bot.get_chat(-1001198682178) # bot debug
 
 def test(url, rotate=False):
 	result = post_2_album.get(url)
-	print(result)
+	print(result.video)
 	# album_sender.send_v2(chat, result)
 	
 if __name__=='__main__':
-	test('https://t.me/twitter_translate/514') # link
+	test('https://t.me/douban_read/63894') # link
